@@ -1,0 +1,29 @@
+{
+  "name": "nbczwphp/is-chinese-phone-number",
+  "description": "中国手机号码和电话号码校验验证，chinese phone mobile number",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nbczw8750",
+      "email": "nbczw8750@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+      "phpunit/phpunit": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "nbczwphp\\isChinesePhoneNumber\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "nbczwphp\\isChinesePhoneNumber\\tests\\" : "tests/"
+    }
+  }
+}
